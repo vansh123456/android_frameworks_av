@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The aexOS Project
+# Copyright (C) 2020 The statixOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aex_davinci.mk
+    $(LOCAL_DIR)/statix_davinci.mk
 
 COMMON_LUNCH_CHOICES := \
-    aex_davinci-user \
-    aex_davinci-userdebug \
-    aex_davinci-eng
+    statix_davinci-user \
+    statix_davinci-userdebug \
+    statix_davinci-eng
