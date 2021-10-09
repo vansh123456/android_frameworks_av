@@ -100,8 +100,8 @@ ODM_MANIFEST_DAVINCI_FILES := \
     $(DEVICE_PATH)/configs/hidl/manifest-qva.xml
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_davinci
-TARGET_RECOVERY_DEVICE_MODULES := libinit_davinci
+#TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_davinci
+#TARGET_RECOVERY_DEVICE_MODULES := libinit_davinci
 
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
